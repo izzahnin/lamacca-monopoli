@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.65bb9014.css",
-    "main.js": "/static/js/main.13d2d4ab.js",
-    "index.html": "/index.html",
-    "main.65bb9014.css.map": "/static/css/main.65bb9014.css.map",
-    "main.13d2d4ab.js.map": "/static/js/main.13d2d4ab.js.map"
+    "main.css": "/lamacca-monopoli/static/css/main.65bb9014.css",
+    "main.js": "/lamacca-monopoli/static/js/main.13d2d4ab.js",
+    "index.html": "/lamacca-monopoli/index.html",
+    "main.65bb9014.css.map": "/lamacca-monopoli/static/css/main.65bb9014.css.map",
+    "main.13d2d4ab.js.map": "/lamacca-monopoli/static/js/main.13d2d4ab.js.map"
   },
   "entrypoints": [
     "static/css/main.65bb9014.css",
