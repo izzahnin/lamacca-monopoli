@@ -3,8 +3,10 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
+      
       white: "#FFFFFF",
       gray :{
+        50: "#eeeeee",
         100: "#f3f4f6",
         200: "#e5e7eb",
         300: "#d1d5db",
@@ -20,7 +22,11 @@ module.exports = {
       mandarin: "#FF6A3D",
       sun: "#F4DB7D",
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'members': "url('/image/anggota31.png')",
+      }
+    },
   },
   plugins: [],
 };
