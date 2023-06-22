@@ -23,9 +23,6 @@ module.exports = {
       sun: "#F4DB7D",
     },
     extend: {
-      backgroundImage: {
-        'members': "url('/image/anggota31.png')",
-      }
     },
   },
   plugins: [],
