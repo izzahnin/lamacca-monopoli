@@ -25,13 +25,13 @@ const Navbar = () => {
                   Beranda
                 </a> */}
                 <Link to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                  Home
+                  Beranda
                 </Link>
                 <Link to="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                  About us
+                  Tentang Kami
                 </Link>
-                <Link to="/learn" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                  Learn
+                <Link to="/belajar" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  Belajar
                 </Link>
                 {/*<a href="/#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                   Contact
@@ -66,7 +66,7 @@ const Navbar = () => {
           <Link to="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Tentang Kami
           </Link>
-          <Link to="/learn" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+          <Link to="/belajar" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Belajar
           </Link>
 
