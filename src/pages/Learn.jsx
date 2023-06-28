@@ -1,60 +1,56 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Sublearn from "../components/Sublearn";
 
 function Learn() {
   return (
     <div className="bg-white min-h-screen">
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
+      <div className="flex flex-col max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 gap-4">
+        <div className="flex flex-col text-center gap-2">
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">Belajar</h1>
-          <p className="mt-4 text-xl text-gray-600">Pengenalan Huruf, angka, dongeng</p>
+          <p className="text-xl text-gray-600">Membaca dan Mengenal Angka & Huruf</p>
         </div>
-      </div>
-      {/* sesi list blok */}
-      <div className="flex max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-        {/* <h1 className="font-bold text-8xl justify-center text-center text-mandarin">A</h1> */}
-        {/* Balla Lompoa */}
-        <div className="flex flex-col w-fit">
-          <Link to="/belajar/ballalompoa" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Balla Lompoa
-          </Link>
-          <Link to="/belajar/saoraja" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Saoraja
-          </Link>
-          <Link to="/belajar/boyang" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Boyang
-          </Link>
-          <Link to="/belajar/tongkonan" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Tongkonan
-          </Link>
-          <Link to="/belajar/langkanae" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Langkanae
-          </Link>
-          <Link to="/belajar/ballatokajang" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Balla To Kajang
-          </Link>
-        </div>
+        <div className="flex justify-center gap-1">
+          <div className="flex flex-col w-fit gap-1">
+            {/* ===Blok-1=== */}
+            <Sublearn text="Rumah Adat Balla Lompoa" path="/belajar/ballalompoa" />
+            <Sublearn text="Rumah Adat Sauraja" path="/belajar/sauraja" />
+            <Sublearn text="Rumah Adat Boyang" path="/belajar/boyang" />
+            <Sublearn text="Rumah Adat Tongkonan" path="/belajar/tongkonan" />
+            <Sublearn text="Rumah Adat Jangkanae" path="/belajar/jangkanae" />
+            <Sublearn text="Rumah Adat Balla To Kajang" path="/belajar/ballatokajang" />
+          </div>
 
-        {/* ===BLOK-2=== */}
-        <div className="flex flex-col w-fit">
-          <Link to="/belajar/ballalompoa" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Balla Lompoa
-          </Link>
-          <Link to="/belajar/saoraja" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Saoraja
-          </Link>
-          <Link to="/belajar/boyang" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Boyang
-          </Link>
-          <Link to="/belajar/tongkonan" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Tongkonan
-          </Link>
-          <Link to="/belajar/langkanae" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Langkanae
-          </Link>
-          <Link to="/belajar/ballatokajang" className="w-60 h-20 bg-mandarin rounded-lg flex items-center justify-center text-white">
-            Rumah Adat Balla To Kajang
-          </Link>
+          <div className="flex flex-col w-fit gap-1">
+            {/* ===Blok-2=== */}
+            <Sublearn text="Kapurung" path="/belajar/kapurung" />
+            <Sublearn text="Es Pisang Ijo" path="/belajar/espisangijo" />
+            <Sublearn text="Buras" path="/belajar/buras" />
+            <Sublearn text="Pisang Eppe" path="/belajar/pisangeppe" />
+            <Sublearn text="Palekko" path="/belajar/palekko" />
+            <Sublearn text="Mie Titi" path="/belajar/mietiti" />
+            <Sublearn text="Soto Konro" path="/belajar/sotokonro" />
+          </div>
+
+          <div className="flex flex-col w-fit gap-1">
+            {/* ===Blok-3=== */}
+            <Sublearn text="Jeneponto" path="/belajar/jeneponto" />
+            <Sublearn text="Bantaeng" path="/belajar/bantaeng" />
+            <Sublearn text="Luwu" path="/belajar/luwu" />
+            <Sublearn text="Palopo" path="/belajar/palopo" />
+            <Sublearn text="Pinrang" path="/belajar/pinrang" />
+            <Sublearn text="Toraja" path="/belajar/toraja" />
+            <Sublearn text="Wajo" path="/belajar/wajo" />
+          </div>
+
+          <div className="flex flex-col w-fit gap-1">
+            {/* ===Blok-4=== */}
+            <Sublearn text="Baju Pokko" path="/belajar/pokko" />
+            <Sublearn text="Baju Seppa Tallung" path="/belajar/seppatallung" />
+            <Sublearn text="Baju Bodo" path="/belajar/bodo" />
+            <Sublearn text="Baju Bella Dada" path="/belajar/belladada" />
+            <Sublearn text="Baju Pattuqduq Towaine" path="/belajar/pattuqduqtowaine" />
+            <Sublearn text="Baju Labbu" path="/belajar/labbu" />
+          </div>
         </div>
       </div>
     </div>
