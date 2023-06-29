@@ -3,9 +3,8 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      
       white: "#FFFFFF",
-      gray :{
+      gray: {
         50: "#eeeeee",
         100: "#f3f4f6",
         200: "#e5e7eb",
@@ -21,9 +20,16 @@ module.exports = {
       purple: "#9DAAF2",
       mandarin: "#FF6A3D",
       sun: "#F4DB7D",
+      a: "#ab000b",
+      b: "#5d944e",
+      c: "#fdbb0d",
+      d: "#5181de",
+      e: " #ba770d",
+      f: "#666665",
+      g: "#fe6600",
+      h: "#68171e",
     },
-    extend: {
-    },
+    extend: {},
   },
   plugins: [],
 };
