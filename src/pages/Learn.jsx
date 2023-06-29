@@ -9,9 +9,9 @@ function Learn() {
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">Belajar</h1>
           <p className="text-xl text-gray-600">Membaca dan Mengenal Angka & Huruf</p>
         </div>
-        <div className="flex justify-center gap-1">
-          <div className="flex flex-col gap-1 sm:flex-row">
-            <div className="flex flex-col w-fit gap-1">
+        <div className="flex justify-center gap-2">
+          <div className="flex flex-col gap-2 sm:flex-row">
+            <div className="flex flex-col w-fit gap-2">
               {/* ===Blok-1=== */}
               <Sublearn color="bg-a" text="Rumah Adat Balla Lompoa" path="/belajar/ballalompoa" />
               <Sublearn color="bg-a" text="Rumah Adat Sauraja" path="/belajar/sauraja" />
@@ -21,7 +21,7 @@ function Learn() {
               <Sublearn color="bg-b" text="Rumah Adat Balla To Kajang" path="/belajar/ballatokajang" />
             </div>
 
-            <div className="flex flex-col w-fit gap-1">
+            <div className="flex flex-col w-fit gap-2">
               {/* ===Blok-2=== */}
               <Sublearn color="bg-c" text="Kapurung" path="/belajar/kapurung" />
               <Sublearn color="bg-c" text="Es Pisang Ijo" path="/belajar/espisangijo" />
@@ -32,8 +32,8 @@ function Learn() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-1 sm:flex-row">
-            <div className="flex flex-col w-fit gap-1">
+          <div className="flex flex-col gap-2 sm:flex-row">
+            <div className="flex flex-col w-fit gap-2">
               {/* ===Blok-3=== */}
               <Sublearn color="bg-e" text="Soto Konro" path="/belajar/sotokonro" />
               <Sublearn color="bg-e" text="Jeneponto" path="/belajar/jeneponto" />
@@ -44,7 +44,7 @@ function Learn() {
               <Sublearn color="bg-f" text="Toraja" path="/belajar/toraja" />
             </div>
 
-            <div className="flex flex-col w-fit gap-1">
+            <div className="flex flex-col w-fit gap-2">
               {/* ===Blok-4=== */}
               <Sublearn color="bg-g" text="Wajo" path="/belajar/wajo" />
               <Sublearn color="bg-g" text="Baju Pokko" path="/belajar/pokko" />

@@ -10,12 +10,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="z-40 sticky top-0  w-full bg-midnight">
+    <nav className="z-40 sticky top-0 w-full bg-midnight">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-6">
             <div className="flex-shrink-0">
-              <h1 className="text-white px-2 rounded-md font-bold">Lamacca <span className="text-mandarin">Monopoli</span></h1>
+              <h1 className="text-white px-2 rounded-md font-bold">Lamacca <span className="text-mandarin underline decoration-wavy">Monopoli</span></h1>
             </div>
             <div className="hidden md:block">
               <div className="flex items-baseline gap-4">
