@@ -27,7 +27,7 @@ function About() {
         <div className="flex flex-col justify-center align-middle items-center gap-4 sm:flex-row md:flex-row">
           <PhotoCard src="/images/anggota2.png" alt="Eka Lukman" name="Eka Lukman" role="Anggota 1" />
           <PhotoCard src="/images/anggota4.png" alt="Teguh Daniel" name="Teguh Daniel" role="Anggota 2" />
-          <PhotoCard src="/images/anggota31.png" alt="Nurul Izzah" name="Nurul Izzah" role="Anggota 3" />
+          <PhotoCard src="/images/anggota3.png" alt="Nurul Izzah" name="Nurul Izzah" role="Anggota 3" />
           <PhotoCard src="/images/anggota5.png" alt="Zaidul. S" name="Zaidul. S" role="Anggota 4" />
         </div>
       </div>
