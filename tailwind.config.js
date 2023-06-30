@@ -28,6 +28,11 @@ module.exports = {
       f: "#666665",
       g: "#fe6600",
       h: "#68171e",
+      french_rose: "#F75590",
+      champagne_pink: "#FCE4D8",
+      jasmine: "#FBD87F",
+      celester: "#B5F8FE",
+      aquamarine: "#10FFCB"
     },
     extend: {},
   },
