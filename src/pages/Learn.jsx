@@ -6,8 +6,8 @@ function Learn() {
     <div className="bg-white min-h-screen">
       <div className="flex flex-col max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 gap-4">
         <div className="flex flex-col text-center gap-2">
-          <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">Belajar</h1>
-          <p className="text-xl text-gray-600">Membaca dan Mengenal Angka & Huruf</p>
+          <h1 className="text-4xl font-extrabold text-aqua sm:text-5xl md:text-6xl underline ">Belajar</h1>
+          <p className="text-xl text-navy font-medium">Membaca dan Mengenal Angka & Huruf</p>
         </div>
         <div className="flex justify-center gap-2">
           <div className="flex flex-col gap-2 sm:flex-row">
