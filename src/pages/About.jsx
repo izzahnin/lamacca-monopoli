@@ -10,7 +10,7 @@ function About() {
         <div className="flex flex-col justify-center align-middle max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 gap-4">
           <div className="flex flex-col align-middle text-center gap-4 ">
             <h1 className="text-2xl sm:text-3xl md:text-3xl font-semibold text-navy border-2 rounded-full text-center w-fit py-2 px-4 m-auto">Meet our team</h1>
-            <p className="text-lg">Yuk kenal dengan tim Lamacca Monopoli</p>
+            <p className="text-lg w-64 m-auto sm:w-full">Yuk kenal dengan tim Lamacca Monopoli</p>
           </div>
 
           <div className="flex flex-col justify-center align-middle items-center gap-4 sm:flex-row md:flex-row">
