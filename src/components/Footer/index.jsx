@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="w-full items-center justify-center mx-auto ">
-      <div className="flex  bg-gray-200 items-center align-middle justify-center py-9 px-3">
+      <div className="flex  bg-sky-100 items-center align-middle justify-center py-9 px-3">
         <div className="flex items-center gap-3">
           <img src={process.env.PUBLIC_URL + "/images/logo1.png"} alt="Logo Unhas" className="h-10 w-auto" />
           <img src={process.env.PUBLIC_URL + "/images/logo2.png"} alt="Logo Kemendikbud" className="h-10 w-auto" />

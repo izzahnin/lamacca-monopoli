@@ -4,7 +4,7 @@ import Story from "../../../components/Story";
 
 function BallaLompoa() {
   return (
-    <div className="flex flex-col m-auto max-w-4xl items-center">
+    <div className="flex flex-col  p-4 items-center bg-cyan-50">
       <Lontara />
       <div>BallaLompoa</div>
       <Story />
