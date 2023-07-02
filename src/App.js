@@ -4,12 +4,35 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Learn from "./pages/Learn";
+// BALLA LOMPOA
 import BallaLompoa from "./pages/subLearn/blok-1/BallaLompoa";
+import KaLontara from "./pages/subLearn/blok-1/BallaLompoa/Part/Huruf";
+import Nol from "./pages/subLearn/blok-1/BallaLompoa/Part/Angka";
+
+// SAORAJA
 import Saoraja from "./pages/subLearn/blok-1/Saoraja";
+import GaLontara from "./pages/subLearn/blok-1/Saoraja/Part/Huruf";
+import Satu from "./pages/subLearn/blok-1/Saoraja/Part/Angka";
+import PutriTandampalik from "./pages/subLearn/blok-1/Saoraja/Part/Cerita";
+
+// BOYANG
 import Boyang from "./pages/subLearn/blok-1/Boyang";
+import NgaLontara from "./pages/subLearn/blok-1/Boyang/Part/Huruf";
+import Dua from "./pages/subLearn/blok-1/Boyang/Part/Angka";
+
+// Tongkonan
 import Tongkonan from "./pages/subLearn/blok-1/Tongkonan";
+import NkaLontara from "./pages/subLearn/blok-1/Tongkonan/Part/Huruf";
+import Tiga from "./pages/subLearn/blok-1/Tongkonan/Part/Angka";
+// Langkanae
 import Langkanae from "./pages/subLearn/blok-1/Langkanae";
+import PaLontara from "./pages/subLearn/blok-1/Langkanae/Part/Huruf";
+import Empat from "./pages/subLearn/blok-1/Langkanae/Part/Angka";
+import ILaurang from "./pages/subLearn/blok-1/Langkanae/Part/Cerita";
+// BallaToKajang
 import BallaToKajang from "./pages/subLearn/blok-1/BallaToKajang";
+import BaLontara from "./pages/subLearn/blok-1/BallaToKajang/Part/Huruf";
+import Lima from "./pages/subLearn/blok-1/BallaToKajang/Part/Angka";
 
 import Kapurung from "./pages/subLearn/blok-2/Kapurung";
 import EsPisangIjo from "./pages/subLearn/blok-2/EsPisangIjo";
@@ -45,12 +68,32 @@ function App() {
             <Route path="/belajar" Component={Learn} />
 
             {/* ===BLOK-1=== */}
+            {/* BALLALOMPOA */}
             <Route path="/belajar/ballalompoa" Component={BallaLompoa} />
+            <Route path="/belajar/ballalompoa/huruf" Component={KaLontara} />
+            <Route path="/belajar/ballalompoa/angka" Component={Nol} />
+            {/* SAORAJA */}
             <Route path="/belajar/saoraja" Component={Saoraja} />
+            <Route path="/belajar/saoraja/huruf" Component={GaLontara} />
+            <Route path="/belajar/saoraja/angka" Component={Satu} />
+            <Route path="/belajar/saoraja/cerita" Component={PutriTandampalik} />
+            {/* BOYANG */}
             <Route path="/belajar/boyang" Component={Boyang} />
+            <Route path="/belajar/boyang/huruf" Component={NgaLontara} />
+            <Route path="/belajar/boyang/angka" Component={Dua} />
+            {/* Tongkonan */}
             <Route path="/belajar/tongkonan" Component={Tongkonan} />
+            <Route path="/belajar/tongkonan/huruf" Component={NkaLontara} />
+            <Route path="/belajar/tongkonan/angka" Component={Tiga} />
+            {/* Langkanae */}
             <Route path="/belajar/langkanae" Component={Langkanae} />
+            <Route path="/belajar/langkanae/huruf" Component={PaLontara} />
+            <Route path="/belajar/langkanae/angka" Component={Empat} />
+            <Route path="/belajar/langkanae/cerita" Component={ILaurang} />
+            {/* BallaToKajang */}
             <Route path="/belajar/ballatokajang" Component={BallaToKajang} />
+            <Route path="/belajar/ballatokajang/huruf" Component={BaLontara} />
+            <Route path="/belajar/ballatokajang/angka" Component={Lima} />
 
             {/* ===BLOK-2=== */}
             <Route path="/belajar/kapurung" Component={Kapurung} />
@@ -77,8 +120,6 @@ function App() {
             <Route path="/belajar/belladada" Component={BellaDada} />
             <Route path="/belajar/pattuqduqtowaine" Component={PattuqtuqTowaine} />
             <Route path="/belajar/Labbu" Component={Labbu} />
-            
-
           </Route>
         </Routes>
       </Router>
