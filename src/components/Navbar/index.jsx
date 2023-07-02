@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-6">
             <div className="flex-shrink-0">
-              <h1 className="text-navy px-2 rounded font-bold">Lamacca <span className="text-aqua">Monopoli</span></h1>
+              <h1 className="text-navy text-lg px-2 rounded font-bold">Lamacca <span className="text-aqua">Monopoli</span></h1>
             </div>
             <div className="hidden md:block">
               <div className="flex items-baseline gap-4">

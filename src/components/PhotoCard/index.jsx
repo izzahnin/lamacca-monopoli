@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function PhotoCard({props}) {
+function PhotoCard(props) {
   return (
     <>
       <div className="flex flex-col w-52 sm:w-52 md:w-52 bg-gray-50 p-0 shadow-md">

@@ -1,18 +1,17 @@
-import React from "react";
-import Lontara from "../../../components/Lontara";
-import Title from "../../../components/Title";
-import Image from "../../../components/Image";
-import Paragraph from "../../../components/Paragraph";
+import React from 'react'
+import Title from "../../../../../components/Title";
+import Image from "../../../../../components/Image";
+import Paragraph from "../../../../../components/Paragraph";
 
-function BallaLompoa() {
+function Cerita() {
   return (
     <div className="flex flex-col  p-4 items-center bg-cyan-50 gap-3 text-neutral-900">
-      <Lontara />
       <div className="flex flex-col  text-justify p-2 sm:px-16 md:px-28 lg:px-32 sm:py-10 bg-champagne_pink">
         <div className="flex flex-col items-center">
           <Title text="Putri Tandampalik" />
           <Image src="/images/putri_tandampalik.jpg" alt="Putri Tandampalik" />
         </div>
+        {/* Paragraf mulai */}
         <Paragraph par="Sang raja bernama Datu Luwu ini memiliki seorang anak perempuan cantik yang bernama Putri Tandampalik. Kecantikannya sangat tersohor, perilakunya juga sangat anggun dan berwibawa. Kecantikan dan perilakunya tersebut pun akhirnya sampai terdengar di kerajaan Bone." />
         <Paragraph par="Raja Bone yang mendengar kabar bahwa ada seorang anak raja yang cantik rupawan dan berperilaku baik tersebut tertarik untuk melamar sang puteri dengan anaknya. Hal tersebut nyatanya membuat Datu Luwu merasa bimbang sebab pada masa itu tidak dibenarkah menikah dengan pemuda dari negeri atau kerajaan lain." />
         <Paragraph par="Namun jika lamaran tersebut ditolak, Datu Luwu merasa khawatir akan terjadi perang antara rakyat dan kerajaan yang menyebabkan rakyat menjadi menderita. Akhirnya untuk menghindari adanya konflik, Datu Luwu pun menerima pinangan untuk anaknya dari sang putera mahkota dari Kerajaan Bone." />
@@ -36,10 +35,10 @@ function BallaLompoa() {
         <Paragraph par="Karena merasa anaknya serius mencintai seorang putri tersebut, sang ayahpun melamar sang putri dan betapa terkejutnya karena ternyata sang putri yang dicintai anaknya adalah seorang putri yang jauh-jauh hari hendak dijodohkan dengan putera mahkota. Mereka berdua pun menikah dan hidup Bahagia." />
 
         <h1 className="pt-12 font-semibold">Apa pesan moral cerita rakyat Putri Tandampalik?</h1>
-        <Paragraph par="Pesan moral yang bisa dipelajari dari cerita rakyat Putri Tandampalik adalah bahwa setiap orang akan diberikan ujian oleh Tuhan dan harus bertahan serta bersabar menghadapi segala ujian yang ada. Perihal jodoh, akan ada cara Tuhan yang bahkan tak pernah disangka – sangka untuk mempertemukan seseorang dengan jodohnya karena sejatinya jodoh tidak akan tertukar." />
+        <Paragraph par="Pesan moral yang bisa dipelajari dari cerita rakyat Putri Tandampalik adalah bahwa setiap orang akan diberikan ujian oleh Tuhan dan harus bertahan serta bersabar menghadapi segala ujian yang ada. Perihal jodoh, akan ada cara Tuhan yang bahkan tak pernah disangka-sangka untuk mempertemukan seseorang dengan jodohnya karena sejatinya jodoh tidak akan tertukar." />
       </div>
     </div>
-  );
+  )
 }
 
-export default BallaLompoa;
+export default Cerita

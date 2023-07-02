@@ -17,7 +17,7 @@ function Learn() {
               <Sublearn color="bg-red-500" text="Rumah Adat Saoraja" path="/belajar/saoraja" />
               <Sublearn color="bg-red-500" text="Rumah Adat Boyang" path="/belajar/boyang" />
               <Sublearn color="bg-emerald-500" text="Rumah Adat Tongkonan" path="/belajar/tongkonan" />
-              <Sublearn color="bg-emerald-500" text="Rumah Adat Jangkanae" path="/belajar/jangkanae" />
+              <Sublearn color="bg-emerald-500" text="Rumah Adat Langkanae" path="/belajar/Langkanae" />
               <Sublearn color="bg-emerald-500" text="Rumah Adat Balla To Kajang" path="/belajar/ballatokajang" />
             </div>
 
