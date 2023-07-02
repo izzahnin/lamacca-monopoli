@@ -6,7 +6,7 @@ function Section(props) {
   const visible = `p-3 w-1/2 rounded-xl  ${props.visible}`;
   return (
     <>
-      <div className="flex flex-col w-screen h-96 gap-2 p-3 mb-14 justify-center align-middle items-center">
+      <div className="flex flex-col w-screen h-[508px] gap-2 px-3 justify-center align-middle items-center">
         <h1 className="font-semibold text-lg text-navy">{props.title}</h1>
         <Link to={props.path1} className={color}>
           <h1 className="font-semibold text-white text-center">Huruf</h1>
