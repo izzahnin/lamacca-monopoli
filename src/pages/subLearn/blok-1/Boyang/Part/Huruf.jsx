@@ -4,7 +4,7 @@ import Lontara3 from '../../../../../components/Lontara3'
 function Huruf() {
   return (
     <>
-      <Lontara3 huruf=" ᨂ" latin="(Nga)" />
+      <Lontara3 huruf="ᨂ" latin="(Nga)" />
     </>
   )
 }
