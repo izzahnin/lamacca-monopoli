@@ -117,7 +117,7 @@ import Duapuluhsatu from "./pages/subLearn/blok-4/SeppaTallung/Part/Angka";
 import Bodo from "./pages/subLearn/blok-4/Bodo";
 import HaLontara from "./pages/subLearn/blok-4/Bodo/Part/Huruf";
 import Duapuluhdua from "./pages/subLearn/blok-4/Bodo/Part/Angka";
-import Lamadukelleng  from "./pages/subLearn/blok-4/Bodo/Part/Cerita";
+import LaUpe  from "./pages/subLearn/blok-4/Bodo/Part/Cerita";
 
 // BellaDada
 import BellaDada from "./pages/subLearn/blok-4/BellaDada";
@@ -128,7 +128,7 @@ import Duapuluhtiga from "./pages/subLearn/blok-4/BellaDada/Part/Angka";
 import PattuqduqTowaine from "./pages/subLearn/blok-4/PattuqduqTowaine";
 import OLontara from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Huruf";
 import Duapuluhempat from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Angka";
-import LaUpe  from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Cerita";
+import AmboUpe  from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Cerita";
 
 // Labbu
 import Labbu from "./pages/subLearn/blok-4/Labbu";
@@ -260,7 +260,7 @@ function App() {
             <Route path="/belajar/bodo" Component={Bodo} />
             <Route path="/belajar/bodo/huruf" Component={HaLontara} />
             <Route path="/belajar/bodo/angka" Component={Duapuluhdua} />
-            <Route path="/belajar/bodo/cerita" Component={Lamadukelleng} />
+            <Route path="/belajar/bodo/cerita" Component={LaUpe} />
 
             {/* BELLA DADA */}
             <Route path="/belajar/belladada" Component={BellaDada} />
@@ -271,7 +271,7 @@ function App() {
             <Route path="/belajar/pattuqduqtowaine" Component={PattuqduqTowaine} />
             <Route path="/belajar/pattuqduqtowaine/huruf" Component={OLontara} />
             <Route path="/belajar/pattuqduqtowaine/angka" Component={Duapuluhempat} />
-            <Route path="/belajar/pattuqduqtowaine/cerita" Component={LaUpe} />
+            <Route path="/belajar/pattuqduqtowaine/cerita" Component={AmboUpe} />
 
             {/* LABBU */}
             <Route path="/belajar/labbu" Component={Labbu} />
