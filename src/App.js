@@ -103,12 +103,37 @@ import WaLontara from "./pages/subLearn/blok-3/Wajo/Part/Huruf";
 import Sembilanbelas from "./pages/subLearn/blok-3/Wajo/Part/Angka";
 import Sawerigading  from "./pages/subLearn/blok-3/Wajo/Part/Cerita";
 
+// Pokko
 import Pokko from "./pages/subLearn/blok-4/Pokko";
+import SaLontara from "./pages/subLearn/blok-4/Pokko/Part/Huruf";
+import Duapuluh from "./pages/subLearn/blok-4/Pokko/Part/Angka";
+
+// SeppaTallung
 import SeppaTallung from "./pages/subLearn/blok-4/SeppaTallung";
+import ALontara from "./pages/subLearn/blok-4/SeppaTallung/Part/Huruf";
+import Duapuluhsatu from "./pages/subLearn/blok-4/SeppaTallung/Part/Angka";
+
+// Bodo
 import Bodo from "./pages/subLearn/blok-4/Bodo";
+import HaLontara from "./pages/subLearn/blok-4/Bodo/Part/Huruf";
+import Duapuluhdua from "./pages/subLearn/blok-4/Bodo/Part/Angka";
+import Lamadukelleng  from "./pages/subLearn/blok-4/Bodo/Part/Cerita";
+
+// BellaDada
 import BellaDada from "./pages/subLearn/blok-4/BellaDada";
-import PattuqtuqTowaine from "./pages/subLearn/blok-4/PattuqtuqTowaine";
+import ELontara from "./pages/subLearn/blok-4/BellaDada/Part/Huruf";
+import Duapuluhtiga from "./pages/subLearn/blok-4/BellaDada/Part/Angka";
+
+// PattuqtuqTowaine
+import PattuqduqTowaine from "./pages/subLearn/blok-4/PattuqduqTowaine";
+import OLontara from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Huruf";
+import Duapuluhempat from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Angka";
+import LaUpe  from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Cerita";
+
+// Labbu
 import Labbu from "./pages/subLearn/blok-4/Labbu";
+import EeLontara from "./pages/subLearn/blok-4/Labbu/Part/Huruf";
+import Duapuluhlima from "./pages/subLearn/blok-4/Labbu/Part/Angka";
 
 function App() {
   return (
@@ -221,12 +246,37 @@ function App() {
             <Route path="/belajar/wajo/cerita" Component={Sawerigading} />
 
             {/* ===BLOK-4=== */}
+            {/* POKKO */}
             <Route path="/belajar/pokko" Component={Pokko} />
+            <Route path="/belajar/pokko/huruf" Component={SaLontara} />
+            <Route path="/belajar/pokko/angka" Component={Duapuluh} />
+
+            {/* SEPPA TALLUNG */}
             <Route path="/belajar/seppatallung" Component={SeppaTallung} />
+            <Route path="/belajar/seppatallung/huruf" Component={ALontara} />
+            <Route path="/belajar/seppatallung/angka" Component={Duapuluhsatu} />
+
+            {/* BODO */}
             <Route path="/belajar/bodo" Component={Bodo} />
+            <Route path="/belajar/bodo/huruf" Component={HaLontara} />
+            <Route path="/belajar/bodo/angka" Component={Duapuluhdua} />
+            <Route path="/belajar/bodo/cerita" Component={Lamadukelleng} />
+
+            {/* BELLA DADA */}
             <Route path="/belajar/belladada" Component={BellaDada} />
-            <Route path="/belajar/pattuqduqtowaine" Component={PattuqtuqTowaine} />
-            <Route path="/belajar/Labbu" Component={Labbu} />
+            <Route path="/belajar/belladada/huruf" Component={ELontara} />
+            <Route path="/belajar/belladada/angka" Component={Duapuluhtiga} />
+
+            {/* PATTUQDUQTOWAINE */}
+            <Route path="/belajar/pattuqduqtowaine" Component={PattuqduqTowaine} />
+            <Route path="/belajar/pattuqduqtowaine/huruf" Component={OLontara} />
+            <Route path="/belajar/pattuqduqtowaine/angka" Component={Duapuluhempat} />
+            <Route path="/belajar/pattuqduqtowaine/cerita" Component={LaUpe} />
+
+            {/* LABBU */}
+            <Route path="/belajar/labbu" Component={Labbu} />
+            <Route path="/belajar/labbu/huruf" Component={EeLontara} />
+            <Route path="/belajar/labbu/angka" Component={Duapuluhlima} />
           </Route>
         </Routes>
       </Router>

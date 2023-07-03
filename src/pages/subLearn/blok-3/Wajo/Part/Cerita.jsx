@@ -1,5 +1,4 @@
 import React from 'react'
-import Title from "../../../../../components/Title";
 import Image from "../../../../../components/Image";
 import Paragraph from "../../../../../components/Paragraph";
 
@@ -8,34 +7,36 @@ function Cerita() {
     <div className="flex flex-col  p-4 items-center bg-cyan-50 gap-3 text-neutral-900">
       <div className="flex flex-col  text-justify p-2 sm:px-16 md:px-28 lg:px-32 sm:py-10 bg-champagne_pink">
         <div className="flex flex-col items-center">
-          <Title text="Putri Tandampalik" />
-          <Image src="/images/putri_tandampalik.jpg" alt="Putri Tandampalik" />
+          {/* <Title text="Putri Tandampalik" /> */}
+          <Image src="/images/sawerigading.svg" alt="sawerigading" />
+          <Image src="/images/sawerigading1.png" alt="sawerigading" />
+          <Image src="/images/sawerigading2.png" alt="sawerigading" />
+
         </div>
         {/* Paragraf mulai */}
-        <Paragraph par="Sang raja bernama Datu Luwu ini memiliki seorang anak perempuan cantik yang bernama Putri Tandampalik. Kecantikannya sangat tersohor, perilakunya juga sangat anggun dan berwibawa. Kecantikan dan perilakunya tersebut pun akhirnya sampai terdengar di kerajaan Bone." />
-        <Paragraph par="Raja Bone yang mendengar kabar bahwa ada seorang anak raja yang cantik rupawan dan berperilaku baik tersebut tertarik untuk melamar sang puteri dengan anaknya. Hal tersebut nyatanya membuat Datu Luwu merasa bimbang sebab pada masa itu tidak dibenarkah menikah dengan pemuda dari negeri atau kerajaan lain." />
-        <Paragraph par="Namun jika lamaran tersebut ditolak, Datu Luwu merasa khawatir akan terjadi perang antara rakyat dan kerajaan yang menyebabkan rakyat menjadi menderita. Akhirnya untuk menghindari adanya konflik, Datu Luwu pun menerima pinangan untuk anaknya dari sang putera mahkota dari Kerajaan Bone." />
-        <Paragraph par="Hanya saja sebelum pernikahan tersebut digelar, ada sebuah tragedi yang menimpa sang puteri. Sekujur tubuh sang puteri mengeluarkan cairan kental yang menjijikkan dan akhirnya Putri Tandampalik pun diungsikan ke sebuah pulau bernama Pulau Wajo sebelum kedua kerajaan ini bertemu untuk membahas masalah lamaran." />
-        <Paragraph par="Datu Luwu memberikan anaknya sebuah keris sebagai tanda bahwa ia tidak akan pernah melupakan anaknya apapun yang terjadi di kemudian hari. Di pulau terpencil tersebut yang menjadi tempat baru bagi sang puteri, ia duduk di tepian danau." />
-        <Image src="/images/putri_tandampalik1.jpg" alt="Sang Putri dan seekor kerbau" />
-        <Paragraph par="Ketika sedang asyik duduk, tiba-tiba ada seekor kerbau berwarna putih yang menghampirinya. Tiba-tiba sang kerbau menjilati kaki sang putri. Setelah itu cairan berbau busuk dari tubuhnya pun hilang dan kulitnya kembali mulus." />
-        <Paragraph par="Akhirnya sejak saat itu Putri Tandampalik menganggap kerbau tersebut merupakan mukjizat baginya dan merupakan sahabat bagi sang puteri sehingga Putri Tandampalik memerintahkan untuk tidak pernah menyembelih kerbau." />
-        <Paragraph par="Meski kondisinya sudah sembuh, namun saat itu Sang Putri masih belum kembali ke kerajaan. Di suatu malam ketika tidur, Putri Tandampalik bermimpi bertemu dengan seorang pria tampan." />
-        <Paragraph par="“Siapa namamu dan mengapa kamu ada di pulau ini?” tanya sang pria tampan tersebut." />
-        <Paragraph par="Kemudian sang puteri menceritakan semuanya dan bertanya kepada pemuda itu," />
-        <Paragraph par="“Siapakah kau dan darimanakah asalmu?”" />
-        <Paragraph par="Sang pemuda tidak menjawab dan balik bertanya," />
-        <Paragraph par="“Maukah kau menjadi istriku?”" />
-        <Paragraph par="Belum terjawab, sang putri terbangun dari tidurnya." />
-        <Paragraph par="Di sisi lain, sang putera mahkota kerajaan Bone sedang asyik berburu di hutan dan akhirnya terpisah dari rombongannya. Sang putera mahkota pun tersesat dan karena sudah merasa kondisinya semakin malam dan belum juga menemukan rombongannya, ia pun memutuskan berteduh di sebuah rumah di hutan tersebut." />
-        <Paragraph par="Ternyata rumah itu merupakan rumah yang dihuni oleh Putri Tandampalik. Namun sang putra mahkota saat itu belum tahu kalau sang puteri merupakan gadis yang dijodohkan dengannya. Di sisi lain, ketika melihat sang pemuda, Putri Tandampalik merasa pernah bertemu dengannya." />
-        <Paragraph par="Putri Tandampalik pun ingat bahwa pemuda tersebut merupakan seseorang yang hadir di mimpinya semalam. Akhirnya mereka pun akrab sejak saat itu." />
-        <Paragraph par="Suatu hari Putri Tandampalik pulang ke kerajaannya karena merasa sudah sembuh, begitu pula dengan putera mahkota. Sang putera mahkota pun mengungkap kepada ayahnya bahwa di hutan ia jatuh hati dengan seorang putri dan ingin meminangnya." />
-        <Image src="/images/putri_tandampalik2.jpg" alt="Sang Putri dan sang Putera Mahkota" />
-        <Paragraph par="Karena merasa anaknya serius mencintai seorang putri tersebut, sang ayahpun melamar sang putri dan betapa terkejutnya karena ternyata sang putri yang dicintai anaknya adalah seorang putri yang jauh-jauh hari hendak dijodohkan dengan putera mahkota. Mereka berdua pun menikah dan hidup Bahagia." />
+        <Paragraph par="Alkisah, di daerah Luwu, Sulawesi Selatan, hiduplah seorang raja bernama La Togeq Langiq atau lebih dikenal dengan panggilan Batara Lattu’. Sang Raja mempunyai dua istri, yaitu satu dari golongan manusia biasa (penduduk dunia nyata) bernama We Datu Sengeng, anak La Urumpassi dan We Padauleng ditompottikka dan satu lagi berasal dari bangsa jin.  Dari perkawinan dengan We Datu Sengeng lahir sepasang anak kembar emas, yakni seorang laki-laki bernama Sawerigading, dan seorang perempuan bernama We Tenriabeng.  " />
+        <Paragraph par="Mengenai masa hidup Sawerigading terdapat berbagai versi di kalangan ahli sejarah. Menurut versi Towani-Tolotang di Sidenreng, Sawerigading lahir pada tahun 564 M. Jika versi ini dihadapkan dengan beberapa versi lain, maka data ini tidak terlalu jauh perbedaanya. Untuk lebih jelasnya, berikut ini akan dikemukakan tiga versi mengenai masa hidup Sawerigading, yaitu : " />
 
-        <h1 className="pt-12 font-semibold">Apa pesan moral cerita rakyat Putri Tandampalik?</h1>
-        <Paragraph par="Pesan moral yang bisa dipelajari dari cerita rakyat Putri Tandampalik adalah bahwa setiap orang akan diberikan ujian oleh Tuhan dan harus bertahan serta bersabar menghadapi segala ujian yang ada. Perihal jodoh, akan ada cara Tuhan yang bahkan tak pernah disangka-sangka untuk mempertemukan seseorang dengan jodohnya karena sejatinya jodoh tidak akan tertukar." />
+        <ol className='pt-2'>
+          <li className="list-decimal list-inside">Versi Sulawesi Tenggara, abad V; </li>
+          <li className="list-decimal list-inside">Versi Gorontalo, 900 dikurangi 50 = 850; </li>
+          <li className="list-decimal list-inside">Versi Kelantan - Terengganu, tahun 710.  </li>
+        </ol>
+        <Paragraph par="Sepertinya, versi Sulawesi Tenggara lebih dekat dengan versi yang dikemukakan oleh masyarakat Towani-Tolotang. Mereka menetapkan versi ini sebab menurut kepercayaan mereka Sawerigading sezaman dengan Nabi Muhammad, bahkan pernah bertemu. " />
+        <Paragraph par="Berdasarkan ramalan Batara Guru (ayah Raja Luwu), Sawerigading dan We Tenriabeng kelak akan saling jatuh cinta dan menikah. Padahal menurut adat setempat, seseorang sangat pantang menikahi saudara kandung sendiri. Agar tidak melanggar adat tersebut, Raja Luwu pun membesarkan kedua anak kembarnya tersebut secara terpisah. Ia menyembunyikan anak perempuannya (We Tenriabeng) di atas loteng istana sejak masih bayi.  " />
+        <Paragraph par="Waktu terus berjalan. Sawerigading tumbuh menjadi pemuda yang gagah dan tampan, sedangkan We Tenriabeng tumbuh menjadi gadis yang cantik jelita. Namun, sepasang anak kembar tersebut belum saling mengenal. " />
+        <Paragraph par="Pada suatu hari, Sawerigading bersama sejumlah pengawal istana diutus oleh ayahnya berlayar ke Negeri Taranati (Ternate) untuk mewakili Kerajaan Luwu dalam sebuah pertemuan para pangeran. Namun sebenarnya tujuan utama Sawerigading diutus pergi jauh ke Ternate karena saudara kembarnya We Tenriabeng akan dilantik menjadi bissu dalam sebuah upacara umum, yang tentu saja tidak boleh dihadirinya karena dikhawatirkan akan bertemu dengan We Tenriabeng. " />
+        <Paragraph par="Dalam perjalanan menuju ke Negeri Ternate, Sawerigading mendapat kabar dari seorang pengawalnya bahwa ia mempunyai saudara kembar yang cantik jelita. Sawerigading tersentak kaget mendengar kabar tersebut. " />
+        <Paragraph par="“Apa katamu? Aku mempunyai saudara kembar perempuan?” tanya Sawerigading dengan kaget. “Benar, Pangeran! Saudaramu itu bernama Tenriabeng. Ia disembunyikan dan dipelihara di atas loteng istana sejak masih kecil,” ungkap pengawal itu. " />
+        <Paragraph par="Sekembalinya dari Ternate, Sawerigading langsung mencari saudara kembarnya yang disembunyikan di atas loteng istana. Tak pelak lagi, Sawergading langsung jatuh cinta saat melihat saudara kembarnya itu dan memutuskan untuk menikahinya. Raja Luwu Batara Lattu’ yang mengetahui rahasia keluarga istana tersebut terbongkar segera memanggil putranya itu untuk menghadap. " />
+        <Paragraph par="“Wahai, Putraku! Mengharap pendamping hidup untuk saling menentramkan hati bukanlah hal yang keliru. Tapi, perlu kamu ketahui bahwa menikahi saudara kandung sendiri merupakan pantangan terbesar dalam adat istiadat kita. Jika adat ini dilanggar, bencana akan menimpa negeri ini. Sebaiknya urungkanlah niatmu itu, Putraku!” bujuk Raja Luwu Batara Lattu'. " />
+        <Paragraph par="page34- belum selesaiiii" />
+        <Paragraph par="" />
+        <Paragraph par="" />
+        
+        <Paragraph par="" /> 
+
+        {/* <h1 className="pt-12 font-semibold">Apa pesan moral cerita rakyat Putri Tandampalik?</h1> */}
       </div>
     </div>
   )
