@@ -1,12 +1,12 @@
-import React from 'react'
-import Lontara3 from '../../../../../components/Lontara3'
+import React from "react";
+import Alfabet from "../../../../../components/Alfabet";
 
 function Huruf() {
   return (
     <>
-    <Lontara3 huruf="ᨃ" latin="(Nka')" />
+      <Alfabet huruf="D" latin="(ce)" />
     </>
-  )
+  );
 }
 
-export default Huruf
+export default Huruf;
