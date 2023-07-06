@@ -4,7 +4,7 @@ import Alfabet from "../../../../../components/Alfabet";
 function Huruf() {
   return (
     <>
-       <Alfabet huruf="L" latin="(ce)" />
+       <Alfabet huruf="L" latin="/el/" />
     </>
   );
 }

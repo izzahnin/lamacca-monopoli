@@ -277,6 +277,11 @@ function App() {
             <Route path="/belajar/labbu" Component={Labbu} />
             <Route path="/belajar/labbu/huruf" Component={EeLontara} />
             <Route path="/belajar/labbu/angka" Component={Duapuluhlima} />
+
+
+
+            {/*  CERITA */}
+            {/* <Route path="/belajar/cerita" Component={} /> */}
           </Route>
         </Routes>
       </Router>

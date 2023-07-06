@@ -1,10 +1,10 @@
 import React from 'react'
-import Lontara from '../../../../../components/Lontara'
+import Alfabet from '../../../../../components/Alfabet'
 
 function Huruf() {
   return (
     <>
-      <Lontara src="/images/ca.svg" alt="lontara ca" latin="(ca)" />
+      <Alfabet huruf="M" latin="/em/" />
     </>
   )
 }

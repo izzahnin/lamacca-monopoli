@@ -3,9 +3,9 @@ import "./global.css";
 
 function Home() {
   return (
-    <div className="bg-white min-h-fit">
-      <div className="flex flex-col bg-white max-w-screen mx-auto py-14 px-4 sm:px-6 lg:px-8 gap-20">
-        <div className="text-center justify-center mx-auto align-middle max-w-4xl">
+    <div className="min-h-fit" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/images/bglontara1.svg" })` }}>
+      <div className="flex flex-col  max-w-screen mx-auto py-14 px-4 sm:px-6 lg:px-8 gap-20">
+        <div className="text-center justify-center mx-auto align-middle max-w-4xl" >
           <h1 className="text-4xl font-extrabold text-navy sm:text-5xl md:text-6xl">
             Lamacca <span className="text-aqua">Monopoli</span>
           </h1>
