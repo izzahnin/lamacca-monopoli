@@ -8,9 +8,6 @@ function Luwu() {
     color="bg-amber-500"
     path1="/belajar/luwu/huruf"
     path2="/belajar/luwu/angka" 
-    path3="/belajar/luwu/cerita"
-    // visible="p-3 w-1/2 rounded-xl bg-amber-500"
-    visible="invisible"
     />
   )
 }

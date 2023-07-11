@@ -13,7 +13,6 @@ import Nol from "./pages/subLearn/blok-1/BallaLompoa/Part/Angka";
 import Saoraja from "./pages/subLearn/blok-1/Saoraja";
 import GaLontara from "./pages/subLearn/blok-1/Saoraja/Part/Huruf";
 import Satu from "./pages/subLearn/blok-1/Saoraja/Part/Angka";
-import PutriTandampalik from "./pages/subLearn/blok-1/Saoraja/Part/Cerita";
 
 // BOYANG
 import Boyang from "./pages/subLearn/blok-1/Boyang";
@@ -28,7 +27,6 @@ import Tiga from "./pages/subLearn/blok-1/Tongkonan/Part/Angka";
 import Langkanae from "./pages/subLearn/blok-1/Langkanae";
 import PaLontara from "./pages/subLearn/blok-1/Langkanae/Part/Huruf";
 import Empat from "./pages/subLearn/blok-1/Langkanae/Part/Angka";
-import ILaurang from "./pages/subLearn/blok-1/Langkanae/Part/Cerita";
 // BallaToKajang
 import BallaToKajang from "./pages/subLearn/blok-1/BallaToKajang";
 import BaLontara from "./pages/subLearn/blok-1/BallaToKajang/Part/Huruf";
@@ -37,7 +35,6 @@ import Lima from "./pages/subLearn/blok-1/BallaToKajang/Part/Angka";
 import Kapurung from "./pages/subLearn/blok-2/Kapurung";
 import MaLontara from "./pages/subLearn/blok-2/Kapurung/Part/Huruf";
 import Enam from "./pages/subLearn/blok-2/Kapurung/Part/Angka";
-import LegendaSiPenaklukRajawali from "./pages/subLearn/blok-2/Kapurung/Part/Cerita";
 // Es Pisang Ijo
 import EsPisangIjo from "./pages/subLearn/blok-2/EsPisangIjo";
 import MpaLontara from "./pages/subLearn/blok-2/EsPisangIjo/Part/Huruf";
@@ -50,7 +47,6 @@ import Delapan from "./pages/subLearn/blok-2/Buras/Part/Angka";
 import PisangEppe from "./pages/subLearn/blok-2/PisangEppe";
 import DaLontara from "./pages/subLearn/blok-2/PisangEppe/Part/Huruf";
 import Sembilan from "./pages/subLearn/blok-2/PisangEppe/Part/Angka";
-import LaSallomo from "./pages/subLearn/blok-2/PisangEppe/Part/Cerita";
 // Palekko
 import Palekko from "./pages/subLearn/blok-2/Palekko";
 import NaLontara from "./pages/subLearn/blok-2/Palekko/Part/Huruf";
@@ -63,7 +59,6 @@ import Sebelas from "./pages/subLearn/blok-2/MieTiti/Part/Angka";
 import SotoKonro from "./pages/subLearn/blok-2/SotoKonro";
 import CaLontara from "./pages/subLearn/blok-2/SotoKonro/Part/Huruf";
 import Duabelas from "./pages/subLearn/blok-2/SotoKonro/Part/Angka";
-import AsalUsulOrangBajo from "./pages/subLearn/blok-2/SotoKonro/Part/Cerita";
 
 // Jeneponto
 import Jeneponto from "./pages/subLearn/blok-3/Jeneponto";
@@ -74,7 +69,6 @@ import Tigabelas from "./pages/subLearn/blok-3/Jeneponto/Part/Angka";
 import Bantaeng from "./pages/subLearn/blok-3/Bantaeng";
 import NyaLontara from "./pages/subLearn/blok-3/Bantaeng/Part/Huruf";
 import Empatbelas from "./pages/subLearn/blok-3/Bantaeng/Part/Angka";
-import LimaSungai  from "./pages/subLearn/blok-3/Bantaeng/Part/Cerita";
 
 // Luwu
 import Luwu from "./pages/subLearn/blok-3/Luwu";
@@ -90,7 +84,6 @@ import Enambelas from "./pages/subLearn/blok-3/Palopo/Part/Angka";
 import Pinrang from "./pages/subLearn/blok-3/Pinrang";
 import RaLontara from "./pages/subLearn/blok-3/Pinrang/Part/Huruf";
 import Tujuhbelas from "./pages/subLearn/blok-3/Pinrang/Part/Angka";
-import NenekPakande  from "./pages/subLearn/blok-3/Pinrang/Part/Cerita";
 
 // Toraja
 import Toraja from "./pages/subLearn/blok-3/Toraja";
@@ -101,7 +94,6 @@ import Delapanbelas from "./pages/subLearn/blok-3/Toraja/Part/Angka";
 import Wajo from "./pages/subLearn/blok-3/Wajo";
 import WaLontara from "./pages/subLearn/blok-3/Wajo/Part/Huruf";
 import Sembilanbelas from "./pages/subLearn/blok-3/Wajo/Part/Angka";
-import Sawerigading  from "./pages/subLearn/blok-3/Wajo/Part/Cerita";
 
 // Pokko
 import Pokko from "./pages/subLearn/blok-4/Pokko";
@@ -117,7 +109,6 @@ import Duapuluhsatu from "./pages/subLearn/blok-4/SeppaTallung/Part/Angka";
 import Bodo from "./pages/subLearn/blok-4/Bodo";
 import HaLontara from "./pages/subLearn/blok-4/Bodo/Part/Huruf";
 import Duapuluhdua from "./pages/subLearn/blok-4/Bodo/Part/Angka";
-import LaUpe  from "./pages/subLearn/blok-4/Bodo/Part/Cerita";
 
 // BellaDada
 import BellaDada from "./pages/subLearn/blok-4/BellaDada";
@@ -128,12 +119,27 @@ import Duapuluhtiga from "./pages/subLearn/blok-4/BellaDada/Part/Angka";
 import PattuqduqTowaine from "./pages/subLearn/blok-4/PattuqduqTowaine";
 import OLontara from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Huruf";
 import Duapuluhempat from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Angka";
-import AmboUpe  from "./pages/subLearn/blok-4/PattuqduqTowaine/Part/Cerita";
 
 // Labbu
 import Labbu from "./pages/subLearn/blok-4/Labbu";
 import EeLontara from "./pages/subLearn/blok-4/Labbu/Part/Huruf";
 import Duapuluhlima from "./pages/subLearn/blok-4/Labbu/Part/Angka";
+
+// Cerita
+import Cerita from "./pages/subLearn/menu/Cerita";
+import Video from "./pages/subLearn/menu/Video";
+
+// lIST CERITA
+import PutriTandampalik from "./pages/subLearn/menu/ListCerita/PutriTandampalik";
+import ILaurang from "./pages/subLearn/menu/ListCerita/ILaurang";
+import LegendaSiPenaklukRajawali from "./pages/subLearn/menu/ListCerita/Rajawali";
+import LaSallomo from "./pages/subLearn/menu/ListCerita/LaSallomo";
+import AsalUsulOrangBajo from "./pages/subLearn/menu/ListCerita/Bajo";
+import LimaSungai from "./pages/subLearn/menu/ListCerita/LimaSungai";
+import NenekPakande from "./pages/subLearn/menu/ListCerita/NenekPakande";
+import Sawerigading from "./pages/subLearn/menu/ListCerita/Sawerigading";
+import LaUpe from "./pages/subLearn/menu/ListCerita/LaUpe";
+import AmboUpe from "./pages/subLearn/menu/ListCerita/AmboUpe";
 
 function App() {
   return (
@@ -154,7 +160,6 @@ function App() {
             <Route path="/belajar/saoraja" Component={Saoraja} />
             <Route path="/belajar/saoraja/huruf" Component={GaLontara} />
             <Route path="/belajar/saoraja/angka" Component={Satu} />
-            <Route path="/belajar/saoraja/cerita" Component={PutriTandampalik} />
             {/* BOYANG */}
             <Route path="/belajar/boyang" Component={Boyang} />
             <Route path="/belajar/boyang/huruf" Component={NgaLontara} />
@@ -167,7 +172,6 @@ function App() {
             <Route path="/belajar/langkanae" Component={Langkanae} />
             <Route path="/belajar/langkanae/huruf" Component={PaLontara} />
             <Route path="/belajar/langkanae/angka" Component={Empat} />
-            <Route path="/belajar/langkanae/cerita" Component={ILaurang} />
             {/* BallaToKajang */}
             <Route path="/belajar/ballatokajang" Component={BallaToKajang} />
             <Route path="/belajar/ballatokajang/huruf" Component={BaLontara} />
@@ -178,7 +182,6 @@ function App() {
             <Route path="/belajar/kapurung" Component={Kapurung} />
             <Route path="/belajar/kapurung/huruf" Component={MaLontara} />
             <Route path="/belajar/kapurung/angka" Component={Enam} />
-            <Route path="/belajar/kapurung/cerita" Component={LegendaSiPenaklukRajawali} />
             {/* ES PISANG IJO */}
             <Route path="/belajar/espisangijo" Component={EsPisangIjo} />
             <Route path="/belajar/espisangijo/huruf" Component={MpaLontara} />
@@ -191,7 +194,6 @@ function App() {
             <Route path="/belajar/pisangeppe" Component={PisangEppe} />
             <Route path="/belajar/pisangeppe/huruf" Component={DaLontara} />
             <Route path="/belajar/pisangeppe/angka" Component={Sembilan} />
-            <Route path="/belajar/pisangeppe/cerita" Component={LaSallomo} />
             {/* PALEKKO */}
             <Route path="/belajar/palekko" Component={Palekko} />
             <Route path="/belajar/palekko/huruf" Component={NaLontara} />
@@ -204,7 +206,6 @@ function App() {
             <Route path="/belajar/sotokonro" Component={SotoKonro} />
             <Route path="/belajar/sotokonro/huruf" Component={CaLontara} />
             <Route path="/belajar/sotokonro/angka" Component={Duabelas} />
-            <Route path="/belajar/sotokonro/cerita" Component={AsalUsulOrangBajo} />
 
             {/* ===BLOK-3=== */}
             {/* JENEPONTO */}
@@ -216,7 +217,6 @@ function App() {
             <Route path="/belajar/bantaeng" Component={Bantaeng} />
             <Route path="/belajar/bantaeng/huruf" Component={NyaLontara} />
             <Route path="/belajar/bantaeng/angka" Component={Empatbelas} />
-            <Route path="/belajar/bantaeng/cerita" Component={LimaSungai} />
 
             {/* LUWU */}
             <Route path="/belajar/luwu" Component={Luwu} />
@@ -232,7 +232,6 @@ function App() {
             <Route path="/belajar/pinrang" Component={Pinrang} />
             <Route path="/belajar/pinrang/huruf" Component={RaLontara} />
             <Route path="/belajar/pinrang/angka" Component={Tujuhbelas} />
-            <Route path="/belajar/pinrang/cerita" Component={NenekPakande} />
 
             {/* TORAJA */}
             <Route path="/belajar/toraja" Component={Toraja} />
@@ -243,7 +242,6 @@ function App() {
             <Route path="/belajar/wajo" Component={Wajo} />
             <Route path="/belajar/wajo/huruf" Component={WaLontara} />
             <Route path="/belajar/wajo/angka" Component={Sembilanbelas} />
-            <Route path="/belajar/wajo/cerita" Component={Sawerigading} />
 
             {/* ===BLOK-4=== */}
             {/* POKKO */}
@@ -260,7 +258,6 @@ function App() {
             <Route path="/belajar/bodo" Component={Bodo} />
             <Route path="/belajar/bodo/huruf" Component={HaLontara} />
             <Route path="/belajar/bodo/angka" Component={Duapuluhdua} />
-            <Route path="/belajar/bodo/cerita" Component={LaUpe} />
 
             {/* BELLA DADA */}
             <Route path="/belajar/belladada" Component={BellaDada} />
@@ -271,17 +268,27 @@ function App() {
             <Route path="/belajar/pattuqduqtowaine" Component={PattuqduqTowaine} />
             <Route path="/belajar/pattuqduqtowaine/huruf" Component={OLontara} />
             <Route path="/belajar/pattuqduqtowaine/angka" Component={Duapuluhempat} />
-            <Route path="/belajar/pattuqduqtowaine/cerita" Component={AmboUpe} />
 
             {/* LABBU */}
             <Route path="/belajar/labbu" Component={Labbu} />
             <Route path="/belajar/labbu/huruf" Component={EeLontara} />
             <Route path="/belajar/labbu/angka" Component={Duapuluhlima} />
 
+            {/* Menu */}
+            <Route path="/belajar/cerita" Component={Cerita} />
+            <Route path="/belajar/video" Component={Video} />
 
-
-            {/*  CERITA */}
-            {/* <Route path="/belajar/cerita" Component={} /> */}
+            {/* List Cerita */}
+            <Route path="/belajar/cerita/putritandampalik" Component={PutriTandampalik} />
+            <Route path="/belajar/cerita/ilaurang" Component={ILaurang} />
+            <Route path="/belajar/cerita/legendasipenaklukrajawali" Component={LegendaSiPenaklukRajawali} />
+            <Route path="/belajar/cerita/lasallomo" Component={LaSallomo} />
+            <Route path="/belajar/cerita/asalusulorangbajo" Component={AsalUsulOrangBajo} />
+            <Route path="/belajar/cerita/limasungai" Component={LimaSungai} />
+            <Route path="/belajar/cerita/nenekpakande" Component={NenekPakande} />
+            <Route path="/belajar/cerita/sawerigading" Component={Sawerigading} />
+            <Route path="/belajar/cerita/laupe" Component={LaUpe} />
+            <Route path="/belajar/cerita/amboupe" Component={AmboUpe} />
           </Route>
         </Routes>
       </Router>

@@ -41,4 +41,4 @@ function Cerita() {
   )
 }
 
-export default Cerita
+export default Cerita 

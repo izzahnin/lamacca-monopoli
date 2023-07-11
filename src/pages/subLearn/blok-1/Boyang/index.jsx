@@ -8,9 +8,6 @@ function Boyang() {
     color="bg-red-500"
     path1="/belajar/boyang/huruf"
     path2="/belajar/boyang/angka" 
-    path3="/belajar/boyang/cerita"
-    // visible="p-3 w-1/2 rounded-xl bg-red-500"
-    visible="invisible"
     />
   )
 }

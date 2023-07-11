@@ -8,9 +8,6 @@ function PattuqduqTowaine() {
     color="bg-red-800"
     path1="/belajar/pattuqduqtowaine/huruf"
     path2="/belajar/pattuqduqtowaine/angka" 
-    path3="/belajar/pattuqduqtowaine/cerita"
-    visible="p-3 w-1/2 rounded-xl bg-red-800"
-    // visible="invisible"
     />
   )
 }

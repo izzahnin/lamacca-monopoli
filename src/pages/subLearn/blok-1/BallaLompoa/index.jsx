@@ -9,9 +9,6 @@ function BallaLompoa() {
         color="bg-red-500"
         path1="/belajar/ballalompoa/huruf"
         path2="/belajar/ballalompoa/angka" 
-        path3="/belajar/ballalompoa/cerita"
-        // visible="p-3 w-1/2 rounded-xl bg-red-500"
-        visible="invisible"
         />
       </>
   );

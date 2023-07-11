@@ -8,9 +8,6 @@ function SotoKonro() {
       color="bg-amber-500"
       path1="/belajar/sotokonro/huruf"
       path2="/belajar/sotokonro/angka"
-      path3="/belajar/sotokonro/cerita"
-      visible="p-3 w-1/2 rounded-xl bg-amber-500"
-      // visible="invisible"
     />
   )
 }
