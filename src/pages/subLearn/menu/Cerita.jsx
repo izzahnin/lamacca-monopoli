@@ -3,7 +3,7 @@ import ButtonMenu from "../../../components/Button/ButtonMenu";
 
 function Cerita() {
   return (
-    <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/images/bglontara.svg"})` }} className="bg-cyan-50 min-h-[100vh]">
+    <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/images/bglontara.svg"})` }} className="bg-cyan-50 h-fit">
       <div className="flex flex-col max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 gap-5">
         <div className="flex flex-col text-center gap-2">
           <h1 className="text-4xl font-extrabold text-navy sm:text-5xl md:text-6xl underline ">Cerita Rakyat</h1>
