@@ -4,7 +4,7 @@ import Sublearn from "../components/Sublearn";
 function Learn() {
   return (
     <div style={{ backgroundImage: `url(${process.env.PUBLIC_URL + "/images/bglontara.svg"})` }} className="bg-cyan-50 min-h-[100vh]">
-      <div className="flex flex-col max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 gap-4">
+      <div className="flex flex-col max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 gap-4 justify-center items-center">
         <div className="flex flex-col text-center gap-2">
           <h1 className="text-4xl font-extrabold text-navy sm:text-5xl md:text-6xl underline ">Belajar</h1>
           <p className="text-xl text-navy font-medium">Membaca dan Mengenal Angka & Huruf</p>
